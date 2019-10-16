@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!-- pembuka script html -->
+<html> <!--Tag untuk membuat sebuah dokumen HTML-->
+<head> <!--Tag untuk membuat informasi tentang dokumen-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Belajar Form PHP</title> <!-- judul kode html -->
+</head> <!--Tag untuk menutup informasi tentang dokumen-->
+
+<body> <!-- kode untuk membuat tubuh html -->
+    <h2>Tutorial Belajar Form HTML - PHP </h2> <!-- digunakan untuk membuat heading pada html -->
+
+    <form action="proses.php" method="get"> <!-- atribut action berisi sebuah nilai yang dikirim ke file php-->
+        <!--method atau metode berfungsi untuk mengirimkan data dari form tersebut-->
+        <!--get merupakan metode untuk pengiriman data melalui url-->
+        <!--post merupakan metode untuk pengiriman data tanpa melalui url-->
+        Nama: <input type="text" name="nama" />
+        <!--input type text menampilkan kotak isian-->
+        <!--atribut name berfungsi untuk penamaan kotak inputan-->
+        <br /> <!-- berfungsi untuk menambak break atau enter -->
+        E-Mail: <input type="text" name="email" />
+        <br /><!-- input type submit berfungsi untuk mengirimkan data ketika di klik -->
+        <input type="submit" value="Proses Data">
+    </form> <!-- akhiran dari form -->
+   
+</body>  <!-- kode untuk menutup tubuh html-->
+</html> <!-- Tag untuk menutup dokumen html -->
